@@ -1,9 +1,10 @@
-#include<stdio.h>
-#include<conio.h>
-int main()
+int main(int argc, char const *argv[])
 {
-    int a=10,b=10,sum;
-    sum =a+b;
-    printf("addition of %d and %d =%d", a,b,sum);
+    int a,b;
+    printf("Enter number a\n");
+    scanf("%d",&a);
+    printf("Enter number b\n");
+    scanf("%d",&b);
+    printf("sum of %d",a+b);
     return 0;
 }
