@@ -1,4 +1,7 @@
 #include<stdio.h>
+#include<stdlib.h>
+#include<malloc.h>
+#include<conio.h>
 int main()
 {
     int a,i;

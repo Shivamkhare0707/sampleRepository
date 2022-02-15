@@ -1,0 +1,11 @@
+{
+    "C_Cpp.errorSquiggles": "Disabled",
+    "files.associations": {
+        "valarray": "c",
+        "stdio.h": "c",
+        "sstream": "c",
+        "regex": "c",
+        "math.h": "c",
+        "string.h": "c"
+    }
+}

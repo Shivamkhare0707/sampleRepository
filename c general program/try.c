@@ -1,8 +1,10 @@
 #include<stdio.h>
-int main()
+#include"shivam.c"
+extern int harry;
+int main2()
 {
-	int i = 5;
-	int a = ++i + ++i + ++i + ++i;
-	printf("%d",a);
+	printf("%d\n",harry);
+    printf("%d\n",shivam);
+	printf("%f\n",abhishek);
 	return 0;
 }

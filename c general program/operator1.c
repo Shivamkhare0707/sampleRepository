@@ -46,7 +46,7 @@ int bitwiseope()
 }
 int logicalope()
 {
-    int a=4,b=10;
+    int a=23,b=56;
     printf("\n%d && %d = %d\n",a,b,a&&b);
     printf("%d || %d = %d\n",a,b,a||b);
     printf("!%d = %d\n",b,!b);

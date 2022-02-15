@@ -2,10 +2,10 @@
 int main(int argc, char const *argv[])
 {
     int a=10;
-    int* pointer=&a;
+    int* p=&a;
     printf("\nvalue of a is %d\n",a);
-    printf("value of pointer is %d\n",pointer);
-    printf("value of pointer is %d\n",--pointer);
-    printf("\nvalue of pointer is %d\n",pointer - 618640);
+    printf("value of  is %d\n",p);
+    printf("value of  is %d\n",--a);
+    printf("\nvalue of  is %d\n",*p);
     return 0;
 }
